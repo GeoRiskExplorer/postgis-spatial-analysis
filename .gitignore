@@ -1,0 +1,45 @@
+# ============================================================
+# POSTGIS SPATIAL ANALYSIS — GIT IGNORE
+# ============================================================
+
+# Credentials / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Positron / IDE
+.positron/
+.vscode/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Local / temporary data
+data/raw/*
+!data/raw/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Positron SQL session files
+*.session.sql

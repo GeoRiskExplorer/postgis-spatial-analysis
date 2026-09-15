@@ -1,0 +1,17 @@
+-- ============================================================
+-- POSTGIS SPATIAL ANALYSIS
+-- 02 BASICS
+-- 02 — FILTER AND SORT
+-- ============================================================
+--
+-- Purpose:
+-- Filter records using WHERE and control result ordering
+-- using ORDER BY.
+--
+-- Decision-support context:
+-- Move from inspecting available information to identifying
+-- subsets of events that may warrant further analysis.
+--
+-- Database: georisk_lab
+--
+-- ============================================================
